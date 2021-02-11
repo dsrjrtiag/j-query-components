@@ -40,9 +40,9 @@ function onHide(){
 
 function notification(message, type){
         //For only one notification at a time
-        // if(active){
-        //     notificationWidget.hide();
-        // }
+        if(active){
+            notificationWidget.hide();
+        }
 
         // Display notification
         notificationWidget.show(message, type);
